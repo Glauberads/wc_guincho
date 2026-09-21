@@ -11,8 +11,8 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <div className="text-2xl font-black text-textPrimary tracking-tight mb-4">
-              WC <span className="text-primary">GUINCHO</span>
+            <div className="mb-4">
+              <img src="/logo.png" alt="WC GUINCHO Logo" className="h-16 w-auto" />
             </div>
             <p className="text-textSecondary mb-6 font-medium">
               Reboque e transporte de veículos.

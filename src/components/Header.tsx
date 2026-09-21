@@ -13,10 +13,9 @@ export const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          {/* While there is no logo, we use text as requested */}
-          <span className="text-2xl font-black text-textPrimary tracking-tight">
-            WC <span className="text-primary">GUINCHO</span>
-          </span>
+          <a href="#inicio">
+            <img src="/logo.png" alt="WC GUINCHO Logo" className="h-14 w-auto" />
+          </a>
         </div>
 
         {/* Desktop Menu - Hidden on Mobile to prioritize CTA as requested */}
