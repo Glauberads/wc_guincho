@@ -7,6 +7,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { CoverageArea } from './components/CoverageArea';
 import { LocationCTA } from './components/LocationCTA';
 import { Benefits } from './components/Benefits';
+import { Gallery } from './components/Gallery';
 import { MiddleCTA } from './components/MiddleCTA';
 import { FAQ } from './components/FAQ';
 import { FinalCTA } from './components/FinalCTA';
@@ -29,6 +30,7 @@ function App() {
         <CoverageArea />
         <LocationCTA />
         <Benefits />
+        <Gallery />
         <MiddleCTA />
         <FAQ />
         <FinalCTA />
