@@ -1,14 +1,13 @@
 import React from 'react';
+import img2 from '../assets/imagens/02.jpeg';
+import img3 from '../assets/imagens/03.jpeg';
+import img4 from '../assets/imagens/04.jpeg';
+import img5 from '../assets/imagens/05.jpeg';
+import img6 from '../assets/imagens/06.jpeg';
+import img7 from '../assets/imagens/07.jpeg';
 
 export const Gallery: React.FC = () => {
-  const images = [
-    '/imagens/02.jpeg',
-    '/imagens/03.jpeg',
-    '/imagens/04.jpeg',
-    '/imagens/05.jpeg',
-    '/imagens/06.jpeg',
-    '/imagens/07.jpeg'
-  ];
+  const images = [img2, img3, img4, img5, img6, img7];
 
   return (
     <section className="py-24 bg-background border-y border-white/5">

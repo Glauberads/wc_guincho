@@ -3,6 +3,7 @@ import { getWhatsAppUrl, getPhoneUrl } from '../lib/whatsapp';
 import { trackWhatsAppClick, trackPhoneClick } from '../lib/analytics';
 import { Phone, MapPin, Truck } from 'lucide-react';
 import { BUSINESS_NAME } from '../lib/constants';
+import heroImg from '../assets/imagens/01.jpeg';
 
 export const Hero: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ export const Hero: React.FC = () => {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/imagens/01.jpeg"
+          src={heroImg}
           alt="Caminhão plataforma guincho executando serviço de reboque"
           className="w-full h-full object-cover"
         />
